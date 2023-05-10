@@ -131,7 +131,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Cliente.cpp" />
+    <ClCompile Include="ConexcionBD.cpp" />
     <ClCompile Include="MySQL_C.cpp" />
+    <ClCompile Include="Persona.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cliente.h" />
+    <ClInclude Include="ConexcionBD.h" />
+    <ClInclude Include="Persona.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
